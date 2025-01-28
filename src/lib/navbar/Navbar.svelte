@@ -21,7 +21,7 @@
     /**
      * Initial deck name
      */
-    let currentDeckName = "untitled";
+    let currentDeckName = "Demo";
 
     /**
      * Boolean indicating whether the user is currently exporting the deck
