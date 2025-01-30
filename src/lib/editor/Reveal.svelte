@@ -189,277 +189,201 @@
     >
         <!-- ADD THE DEMO HERE -->
         <div class="slides">
-            {#each $revealSlides as verticalSlides, index (index)}
-                <section>
-                    <!-- title class: custom style for titles -->
-                    <h3 class="title">Interactive Code Playgrounds</h3>
+            <section>
+                <!-- title class: custom style for titles -->
+                <h3 class="title">Interactive Code Playgrounds</h3>
 
-                    <!-- subtitle class: custom style for subtitles -->
-                    <p class="subtitle">Rethinking the user experience of slideshows in programming classes</p>
-                    <div>
-                        <p class="xsmall">An interactive demo of the <a href="https://github.com/lucademenego99/icp-bundle"
-                                target="_blank">Interactive Code
-                                Playgrounds</a> project</p>
-                        <div class="row mt2" style="gap: min(0.6vw, 1.2vh); align-items: center">
-                            <p class="xsmall bold">Recommended browser:</p>
-                            <a href="https://www.google.com/intl/it_it/chrome/" target="_blank" style="display: flex;">
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    style="width: min(1.5vw, 3vh); height: min(1.5vw, 3vh);" viewBox="0 0 190.5 190.5"
-                                    xmlns:v="https://vecta.io/nano">
-                                    <g transform="translate(90.669 -507.469)">
-                                        <path
-                                            d="M4.583 650.342c26.304 0 47.627-21.324 47.627-47.628s-21.323-47.628-47.627-47.628-47.627 21.324-47.627 47.628 21.323 47.628 47.627 47.628z"
-                                            fill="#fff" clip-path="none" mask="none" />
-                                        <path
-                                            d="M-36.664 626.539l-41.24-71.43c-8.362 14.479-12.765 30.904-12.765 47.625s4.401 33.146 12.762 47.625 20.387 26.503 34.868 34.86 30.908 12.755 47.628 12.75l41.24-71.43v-.011c-4.177 7.244-10.188 13.26-17.428 17.443a47.62 47.62 0 0 1-47.632.007 47.62 47.62 0 0 1-17.433-17.437z"
-                                            fill="#229342" clip-path="none" mask="none" />
-                                        <path
-                                            d="M45.826 626.536l-41.239 71.43c16.72.003 33.146-4.398 47.626-12.757s26.504-20.384 34.863-34.865a95.24 95.24 0 0 0 12.755-47.627c-.003-16.72-4.408-33.145-12.772-47.623H4.58l-.01.007a47.62 47.62 0 0 1 23.819 6.372c7.243 4.179 13.257 10.19 17.439 17.431a47.62 47.62 0 0 1-.001 47.633z"
-                                            fill="#fbc116" clip-path="none" mask="none" />
-                                        <path
-                                            d="M4.583 640.43c20.824 0 37.705-16.881 37.705-37.706s-16.881-37.705-37.705-37.705-37.705 16.881-37.705 37.705 16.881 37.706 37.705 37.706z"
-                                            fill="#1a73e8" clip-path="none" mask="none" />
-                                        <path
-                                            d="M4.583 555.097h82.479c-8.358-14.481-20.381-26.507-34.861-34.868a95.23 95.23 0 0 0-47.625-12.76c-16.72.001-33.145 4.404-47.623 12.767a95.23 95.23 0 0 0-34.856 34.872l41.24 71.43.011.006a47.62 47.62 0 0 1-.015-47.633c4.179-7.242 10.193-13.256 17.434-17.436s15.456-6.381 23.818-6.379z"
-                                            fill="#e33b2e" clip-path="none" mask="none" />
-                                    </g>
-                                </svg>
-                            </a>
+                <!-- subtitle class: custom style for subtitles -->
+                <p class="subtitle">Rethinking the user experience of slideshows in programming classes</p>
+                <div>
+                    <p class="xsmall">An interactive demo of the <a href="https://github.com/lucademenego99/icp-bundle"
+                            target="_blank">Interactive Code
+                            Playgrounds</a> project</p>
+                    <div class="row mt2" style="gap: min(0.6vw, 1.2vh); align-items: center">
+                        <p class="xsmall bold">Recommended browser:</p>
+                        <a href="https://www.google.com/intl/it_it/chrome/" target="_blank" style="display: flex;">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                style="width: min(1.5vw, 3vh); height: min(1.5vw, 3vh);" viewBox="0 0 190.5 190.5"
+                                xmlns:v="https://vecta.io/nano">
+                                <g transform="translate(90.669 -507.469)">
+                                    <path
+                                        d="M4.583 650.342c26.304 0 47.627-21.324 47.627-47.628s-21.323-47.628-47.627-47.628-47.627 21.324-47.627 47.628 21.323 47.628 47.627 47.628z"
+                                        fill="#fff" clip-path="none" mask="none" />
+                                    <path
+                                        d="M-36.664 626.539l-41.24-71.43c-8.362 14.479-12.765 30.904-12.765 47.625s4.401 33.146 12.762 47.625 20.387 26.503 34.868 34.86 30.908 12.755 47.628 12.75l41.24-71.43v-.011c-4.177 7.244-10.188 13.26-17.428 17.443a47.62 47.62 0 0 1-47.632.007 47.62 47.62 0 0 1-17.433-17.437z"
+                                        fill="#229342" clip-path="none" mask="none" />
+                                    <path
+                                        d="M45.826 626.536l-41.239 71.43c16.72.003 33.146-4.398 47.626-12.757s26.504-20.384 34.863-34.865a95.24 95.24 0 0 0 12.755-47.627c-.003-16.72-4.408-33.145-12.772-47.623H4.58l-.01.007a47.62 47.62 0 0 1 23.819 6.372c7.243 4.179 13.257 10.19 17.439 17.431a47.62 47.62 0 0 1-.001 47.633z"
+                                        fill="#fbc116" clip-path="none" mask="none" />
+                                    <path
+                                        d="M4.583 640.43c20.824 0 37.705-16.881 37.705-37.706s-16.881-37.705-37.705-37.705-37.705 16.881-37.705 37.705 16.881 37.706 37.705 37.706z"
+                                        fill="#1a73e8" clip-path="none" mask="none" />
+                                    <path
+                                        d="M4.583 555.097h82.479c-8.358-14.481-20.381-26.507-34.861-34.868a95.23 95.23 0 0 0-47.625-12.76c-16.72.001-33.145 4.404-47.623 12.767a95.23 95.23 0 0 0-34.856 34.872l41.24 71.43.011.006a47.62 47.62 0 0 1-.015-47.633c4.179-7.242 10.193-13.256 17.434-17.436s15.456-6.381 23.818-6.379z"
+                                        fill="#e33b2e" clip-path="none" mask="none" />
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="row">
+                    <div class="col" style="margin-left: 2vw;">
+                        <p>A typical slide in a programming class looks like this:</p>
+
+                        <p>A static image from which you can't select text and if you manage to copy and paste it, the output might be unexpected.</p>
+
+                        <p>Not only this makes the lesson less engaging, but also as a teacher, if you need to change something, you need to re-make the image.</p>
+                    </div>
+
+                    <img src="assets/codeSample.png"
+                        alt="Sample code snippet showing basic coding concepts"
+                        style="max-width: 50%; object-fit: contain; max-height: 80vh; margin: min(1vw, 2vh);" />
+                </div>
+            </section>
+
+            <section>
+                <div class="row">
+                    <div class="col">
+                        <ul style="list-style-type: none;">
+                            <li>But the biggest problem is this:</li>
+                            <li class="fragment">Are you studying, and curious to know what this bit of code does?</li>
+                        </ul>
+                        <div class="fragment">
+                            <h4>Tough <span class="fragment">luck.</span></h4>
                         </div>
                     </div>
-                </section>
 
-                <section>
-                    <h5>Learning to code isn't easy.</h5>
-                    <p class="fragment">Especially if you're a beginner.</p>
-                </section>
+                    <img src="assets/codeSample.png"
+                        alt="Sample code snippet showing basic coding concepts"
+                        style="max-width: 50%; object-fit: contain; max-height: 80vh; margin: min(1vw, 2vh);" />
+                </div>
+            </section>
 
+            <section>
                 <section>
-                    <p>Your university probably teaches programming through a lab course.</p>
+                    <p class="big">Okay, that was maybe a bit excessive.</p>
+                    <p>You can actually do that, but it'll take jumping through a few hoops. <br />
+                        Find out by going down, or just skip ahead to the right.</p>
                 </section>
-
                 <section>
-                    <p>One of the first steps in lab courses is to make students install a coding environment.</p>
-                    <p class="fragment">Without the coding environment, you can't start coding.</p>
-                    <p class="fragment">Often, the installation is quite complex.</p>
+                    <p>
+                        Alright, there was some interesting code on that slide! <br />
+                        Let's assume you want to run a bit of Python code...
+                    </p>
                 </section>
-
                 <section>
-                    <p>Starting out should be simpler.</p>
+                    <p>
+                        You'll just need to...
+                    </p>
                 </section>
-
                 <section>
-                    <p>We want to propose a solution <br />
-                        that rethinks one of the staples of programming classes.</p>
+                    <p>Open the Python interpreter</p>
+                    <p class="fragment">Open a text editor</p>
+                    <p class="fragment">Select the code on the slide (if you can!)</p>
+                    <p class="fragment">Copy and paste it in the text editor (or transcribe it manually!)</p>
+                    <p class="fragment">Check for copy/paste mistakes</p>
+                    <p class="fragment">Run the code in the interpreter</p>
+                    <p class="fragment">Whew!</p>
                 </section>
-
                 <section>
-                    <p>The humble slide deck.</p>
+                    <p>Can't we do better?</p>
                 </section>
+            </section>
 
-                <section>
-                    <section>
-                        <div class="row">
-                            <div class="col">
-                                <p>A typical slide in a programming class looks like this.</p>
-    
-                                <p>Go down to analyse some of the issues this creates, or go right to continue.</p>
-                            </div>
-    
-                            <img src="assets/codeSample.png"
-                                alt="Sample code snippet showing basic coding concepts"
-                                style="max-width: 50%; object-fit: contain; max-height: 80vh; margin: min(1vw, 2vh);" />
+            <section>
+                <!-- row class: custom class to set up a two-columns layout - you need to use row + two columns -->
+                <div class="row" style="width: 100%">
+                    <!-- col class: first column of the row defined before -->
+                    <div class="col" style="text-align: left; margin-left: min(2vw, 4vh)">
+                        <p class="fragment semi-fade-out big" data-fragment-index="1">What if code on slides could look
+                            like...</p>
+                        <div class="fragment" data-fragment-index="2">
+                            <h4>this?</h4>
                         </div>
-                    </section>
-                    <section>
-                        <div class="row">
-                            <div class="col">
-                                <ul style="list-style-type: none;">
-                                    <li>The code to your right is an image.</li>
-                                    <li class="fragment">You can't select text from it.</li>
-                                    <li class="fragment">Even when you can, if it's on a PDF file, it often doesn't select
-                                        properly.</li>
-                                    <li class="fragment">If you try copying and pasting from it, the output might be,
-                                        frankly, garbage.</li>
-                                    <li class="fragment">Also, as a teacher, if you need to change something, you need to
-                                        re-make the image.</li>
-                                    <li class="fragment">To make matters worse, there is also a problem of <span
-                                            class="emph">accessibility</span>: <br />
-                                        an image is hardly usable for a screen reader user.</li>
-                                    <li class="fragment">And finally, even when you can see them, images often render ugly!
-                                        Look at those compression artifacts!</li>
-                                </ul>
-                            </div>
-                            <img src="assets/codeSample.png"
-                                alt="Sample code snippet showing basic coding concepts" 
-                                style="max-width: 50%; object-fit: contain; max-height: 80vh; margin: min(1vw, 2vh);" />
-                        </div>
-                    </section>
+                        <p class="fragment" data-fragment-index="4">Go ahead and try clicking that "Run Code!" button.
+                        </p>
+                        <p class="fragment" data-fragment-index="5">Did you see what happened in the "Output" box?</p>
+                        <p class="fragment" data-fragment-index="6">The code was run <span class="emph">directly on the
+                                slide</span>!</p>
+                        <p class="fragment" data-fragment-index="7">What's more, you can edit the code directly in the
+                            text box!</p>
+                        <p class="fragment" data-fragment-index="8">Why don't you make some changes, run the code again,
+                            and see what happens?</p>
+                        <p class="fragment" data-fragment-index="9">Move on when you're done playing.</p>
+                    </div>
+                    <!-- col class: second column of the row defined before -->
+                    <!-- Note: the editor takes the size of the parent, so it must be specified -->
+                    <!--    in this case the parent is 100% width, 60vh height -->
+                    <div class="col fragment" data-fragment-index="2"
+                        style="height: min(30vw, 60vh); margin: min(1vw, 2vh)">
+                        <!-- Normal editor, set the language and the code inside it -->
+                        <!--    to create editable parts, just use <EDITABLE>...</EDITABLE> -->
+                        <!--    for more info: https://github.com/lucademenego99/icp-bundle -->
+                        <!-- Note: for reveal.js to work we need to set content editable to true -->
+                        <python-editor contenteditable="true" theme="dark" code="elements = [39,12,18,85,72,10,2,18]
+
+print('Unsorted list is\n', elements)
+
+# Sort the list (with bubblesort)
+for n in range(len(elements)-1, 0, -1):
+for i in range(n):
+    if elements[i] > elements[i+1]:
+        elements[i], elements[i+1] = elements[i+1], elements[i]
+
+print('\nSorted list is\n', elements)" />
+                    </div>
+            </section>
+
+            <section>
+                <p>The benefits of the usage of interactive code editors during a lesson should be ovious at this point, but...</p>
+
+                <p class="fragment" style="margin-left: 8vw; margin-right: 8vw;">...what are the costs for a teacher? How <strong>difficult</strong> is it to create these interactive slides compared to what we are already used to?</p>
+            </section>
+
+            <section>
+                <section>
+                    <p>It is incredibly <strong>EASY!</strong></p>
+
+                    <p class="fragment">What you are seeing at the moment is exactly an editor to create ICP slide decks.</p>
+
+                    <p class="fragment">Below you will find a quick tutorial about its usage or move right to start playing with the editor.</p>
                 </section>
+
+                <section>
+                    <p>The <strong>+</strong> buttons on the right and at the bottom are used to create, respectively, new horizontal and vertical slides.</p>
+                </section>  
 
                 <section>
                     <div class="row">
                         <div class="col">
-                            <ul style="list-style-type: none;">
-                                <li>But the biggest problem is this:</li>
-                                <li class="fragment">Are you studying, and curious to know what this bit of code does?</li>
-                            </ul>
-                            <div class="fragment">
-                                <h4>Tough <span class="fragment">luck.</span></h4>
-                            </div>
+                            <p>The <strong>Selected Layout</strong> button can be used to modify the layout of the current slide.</p>
                         </div>
     
-                        <img src="assets/codeSample.png"
+                        <img src="assets/selectedLayout.png"
                             alt="Sample code snippet showing basic coding concepts"
                             style="max-width: 50%; object-fit: contain; max-height: 80vh; margin: min(1vw, 2vh);" />
                     </div>
                 </section>
 
                 <section>
-                    <section>
-                        <p class="big">Okay, that was maybe a bit excessive.</p>
-                        <p>You can actually do that, but it'll take jumping through a few hoops. <br />
-                            Find out by going down, or just skip ahead to the right.</p>
-                    </section>
-                    <section>
-                        <p>
-                            Alright, there was some interesting code on that slide! <br />
-                            Let's assume you want to run a bit of Python code...
-                        </p>
-                    </section>
-                    <section>
-                        <p>
-                            You'll just need to...
-                        </p>
-                    </section>
-                    <section>
-                        <p>Open the Python interpreter</p>
-                        <p class="fragment">Open a text editor</p>
-                        <p class="fragment">Select the code on the slide (if you can!)</p>
-                        <p class="fragment">Copy and paste it in the text editor (or transcribe it manually!)</p>
-                        <p class="fragment">Check for copy/paste mistakes</p>
-                        <p class="fragment">Run the code in the interpreter</p>
-                        <p class="fragment">Whew!</p>
-                    </section>
-                    <section>
-                        <p>Can't we do better?</p>
-                    </section>
-                </section>
+                    <div class="row">
+                        <div class="col">
+                            <p>If the current slide layout allows to add a code editor, just press the corresponding button to include it!</p>
 
-                <section>
-                    <p class="subtitle">&lt;python-editor /&gt;</p>
-                    <!-- row class: custom class to set up a two-columns layout - you need to use row + two columns -->
-                    <div class="row" style="width: 100%">
-                        <!-- col class: first column of the row defined before -->
-                        <div class="col" style="text-align: left; margin-left: min(2vw, 4vh)">
-                            <p class="fragment semi-fade-out big" data-fragment-index="1">What if code on slides could look
-                                like...</p>
-                            <div class="fragment" data-fragment-index="2">
-                                <h4>this?</h4>
-                            </div>
-                            <p class="fragment" data-fragment-index="4">Go ahead and try clicking that "Run Code!" button.
-                            </p>
-                            <p class="fragment" data-fragment-index="5">Did you see what happened in the "Output" box?</p>
-                            <p class="fragment" data-fragment-index="6">The code was run <span class="emph">directly on the
-                                    slide</span>!</p>
-                            <p class="fragment" data-fragment-index="7">What's more, you can edit the code directly in the
-                                text box!</p>
-                            <p class="fragment" data-fragment-index="8">Why don't you make some changes, run the code again,
-                                and see what happens?</p>
-                            <p class="fragment" data-fragment-index="9">Move on when you're done playing.</p>
+                            <p>The <strong>Selected language</strong> allows instead to select the language of the code editor in the current slide.</p>
                         </div>
-                        <!-- col class: second column of the row defined before -->
-                        <!-- Note: the editor takes the size of the parent, so it must be specified -->
-                        <!--    in this case the parent is 100% width, 60vh height -->
-                        <div class="col fragment" data-fragment-index="2"
-                            style="height: min(30vw, 60vh); margin: min(1vw, 2vh)">
-                            <!-- Normal editor, set the language and the code inside it -->
-                            <!--    to create editable parts, just use <EDITABLE>...</EDITABLE> -->
-                            <!--    for more info: https://github.com/lucademenego99/icp-bundle -->
-                            <!-- Note: for reveal.js to work we need to set content editable to true -->
-                            <python-editor contenteditable="true" theme="dark" code="elements = [39,12,18,85,72,10,2,18]
     
-print('Unsorted list is\n', elements)
-
-# Sort the list (with bubblesort)
-for n in range(len(elements)-1, 0, -1):
-    for i in range(n):
-        if elements[i] > elements[i+1]:
-            elements[i], elements[i+1] = elements[i+1], elements[i]
-
-print('\nSorted list is\n', elements)" />
-                        </div>
+                        <img src="assets/selectedLayout.png"
+                            alt="Sample code snippet showing basic coding concepts"
+                            style="max-width: 50%; object-fit: contain; max-height: 80vh; margin: min(1vw, 2vh);" />
+                    </div>
                 </section>
+            </section>
 
-                <section>
-                    <p class="big">
-                        You just saw what we call an <span class="emph">Interactive Code Playground</span> (or ICP for
-                        short).<br />
-                        And there's more they can do...
-                    </p>
-                </section>
-
-                <section>
-                    <p class="subtitle">&lt;python-editor /&gt;</p>
-                    <div class="row" style="width: 100%">
-                        <div class="col">
-                            <p>You can restrict the editable parts of the code. It may be useful for guided exercises!</p>
-                        </div>
-                        <div class="col" style="height: min(30vw, 60vh); margin: min(1vw, 2vh)">
-                            <python-editor contenteditable="true" type="vertical" theme="dark"
-                                code="print('Hello, <EDITABLE>world</EDITABLE>!')" />
-                        </div>
-                </section>
-
-                <section>
-                    <p class="subtitle">&lt;python-editor /&gt;</p>
-                    <div class="row" style="width: 100%">
-                        <div class="col">
-                            <p style="margin-bottom: min(1vw, 2vh)">Clicking on the settings, you can find buttons to:</p>
-                            <ul>
-                                <li>copy the code snippet</li>
-                                <li>cancel all your changes</li>
-                                <li>enable the 'tabs' handling in the editor</li>
-                            </ul>
-                        </div>
-                        <div class="col" style="height: min(30vw, 60vh); margin: min(1vw, 2vh)">
-                            <python-editor contenteditable="true" type="vertical" code="print('Hello, world!')" />
-                        </div>
-                </section>
-
-                <section>
-                    <p class="subtitle">&lt;java-editor /&gt;</p>
-                    <div class="row" style="width: 100%">
-                        <div class="col">
-                            <p style="margin-bottom: min(1vw, 2vh)">ICP is compatible with other languages!</p>
-                            <ul>
-                                <li>Javascript</li>
-                                <li>Typescript</li>
-                                <li>Python</li>
-                                <li>Java</li>
-                                <li>C/C++</li>
-                                <li>SQL</li>
-                                <li>Standard-ML</li>
-                                <li>p5.js</li>
-                                <li>Processing</li>
-                            </ul>
-                            <p>On the right, for instance, you can execute some Java code!</p>
-                        </div>
-                        <div class="col" style="height: min(30vw, 60vh); margin: min(1vw, 2vh)">
-                            <java-editor
-                                contenteditable="true"
-                                theme="dark"
-                                id="test"
-                                code={javaCode}
-                            ></java-editor>
-                        </div>
-                </section>
-
-                <section>
-                    <p>We hope the ICPs can make learning to code more *creative*, and based on *fast tinkering*.</p>
-                    <p class="fragment">Thanks for following this demo.</p>
-                </section>
-
+            {#each $revealSlides as verticalSlides, index (index)}
                 <section>
                     {#each verticalSlides as slide (slide.id)}
                         {#if slide.layout == Layouts.BODY}
